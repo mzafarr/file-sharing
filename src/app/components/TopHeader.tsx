@@ -8,7 +8,7 @@ async function TopHeader() {
   return (
     <header className="bg-[#F9FAFB] border-b">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <a className="block text-purple-600" href="/">
+        <a className="block text-violet-600" href="/">
           <span className="sr-only">Home</span>
           <Logo />
         </a>
@@ -46,13 +46,13 @@ async function TopHeader() {
             {!user && (
               <div className="sm:flex sm:gap-4">
                 <a
-                  className="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700"
+                  className="block rounded-md bg-violet-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-violet-700"
                   href="/files"
                 >
                   Login
                 </a>
                 <a
-                  className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-purple-600 transition hover:text-purple-600/75 sm:block"
+                  className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-violet-600 transition hover:text-violet-600/75 sm:block"
                   href="/signup"
                 >
                   Register

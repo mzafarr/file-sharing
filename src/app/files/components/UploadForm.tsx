@@ -15,11 +15,11 @@ const UploadForm = ({ file, setFile, isFileLarge, setIsFileLarge }: any) => {
       {isFileLarge && <ErrorMessage message="File size is too large" />}
       <label
         htmlFor="dropzone-file"
-        className="flex flex-col items-center justify-center w-[500px] h-64 border-2 border-purple-200 bg-purple-50 hover:bg-gray-100 bg-opacity-50 border-dashed rounded-lg cursor-pointer "
+        className="flex flex-col items-center justify-center w-[500px] h-64 border-2 border-violet-200 bg-violet-50 hover:bg-gray-100 bg-opacity-50 border-dashed rounded-lg cursor-pointer "
       >
         <div className="flex flex-col items-center justify-center pt-5 pb-6 ">
           <svg
-            className="w-14 h-14 mb-2 text-purple-500"
+            className="w-14 h-14 mb-2 text-violet-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -34,7 +34,7 @@ const UploadForm = ({ file, setFile, isFileLarge, setIsFileLarge }: any) => {
             />
           </svg>
           <p className="mb-2 text-lg text-gray-700">
-            <span className="font-semibold text-purple-600">
+            <span className="font-semibold text-violet-600">
               Click to upload
             </span>
             or drag and drop

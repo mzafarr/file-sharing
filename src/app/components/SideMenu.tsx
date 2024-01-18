@@ -48,7 +48,7 @@ export function SideMenu() {
           <span className="hidden sm:flex">
             <Logo />
           </span>
-          <span className="text-2xl sm:text-[36px] font-bold text-purple-600">
+          <span className="text-2xl sm:text-[36px] font-bold text-violet-600">
             {" "}
             CF.
           </span>
@@ -60,7 +60,7 @@ export function SideMenu() {
                 href=""
                 className={`flex items-center gap-2 rounded-lg hover:bg-gray-100 p-2 text-sm font-medium text-gray-700 ${
                   activeItem == item.id
-                    ? "bg-purple-50 hover:bg-purple-50 text-purple-600"
+                    ? "bg-violet-50 hover:bg-violet-50 text-violet-600"
                     : ""
                 }`}
               >

@@ -118,7 +118,7 @@ function UploadPage({
         <button
           onClick={() => onUpload(file)}
           disabled={!file || isFileLarge || isUploading}
-          className={`bg-purple-600 px-6 py-4 text-white font-semibold w-full my-4 disabled:bg-gray-300 rounded-lg`}
+          className={`bg-violet-600 px-6 py-4 text-white font-semibold w-full my-4 disabled:bg-gray-300 rounded-lg`}
         >
           Upload
         </button>
