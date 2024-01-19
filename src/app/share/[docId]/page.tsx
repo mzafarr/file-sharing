@@ -140,8 +140,8 @@ function Share({ params }: any) {
     <div className="flex">
       <SideMenu />
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl my-4 mb-8">
-          Share this link with your friends
+        <h1 className="text-2xl sm:text-3xl md:text-4xl my-8">
+          Share this file through email
         </h1>
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 h-[80vh]">
           <div
@@ -161,7 +161,7 @@ function Share({ params }: any) {
           <div className="m-0 w-[300px] h-[300px] flex-col flex justify-center items-center">
             <p className="text-left w-full text-sm mb-2">Short URL:</p>
             <div className="text-slate-700 border rounded-lg p-1.5 flex items-center justify-between shadow w-full max-w-[370px] max-h-[50px]">
-              <p className="ml-2 max-w-[248px] z-100 overflow-hidden">
+              <p className="ml-2 max-w-[230px] z-100 overflow-hidden">
                 {fileInfo.shortUrl}
               </p>
               <button
