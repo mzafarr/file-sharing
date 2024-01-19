@@ -34,10 +34,7 @@ const UploadForm = ({ file, setFile, isFileLarge, setIsFileLarge }: any) => {
             />
           </svg>
           <p className="mb-2 text-lg text-gray-700">
-            <span className="font-semibold text-violet-600">
-              Click to upload
-            </span>
-            or drag and drop
+            <span className="font-semibold text-violet-600">Click to upload</span> or drag and drop
           </p>
           <p className="text-xs text-gray-700">
             All file types are supported. Max file size is 2MB.

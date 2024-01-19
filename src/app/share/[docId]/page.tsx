@@ -60,7 +60,7 @@ function Share({ params }: any) {
       console.log("Document data:", docSnap.data());
       setFileInfo({
         url: docSnap.data().url,
-        shortUrl: docSnap.data().shortUrl,
+        shortUrl: docSnap.data().shortUrl, // localhost:3000/sharedfile/3128937192
         fullName: docSnap.data().username || "temp",
         email: docSnap.data().userEmail || "temp@",
         name: docSnap.data().name,

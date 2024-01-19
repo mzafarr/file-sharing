@@ -63,7 +63,8 @@ function UploadPage({
           setFile(null);
           const docId = Date.now().toString();
           const shortUrl =
-            process.env.NEXT_PUBLIC_BASE_URL + "/sharedfile/" + docId;
+            // process.env.NEXT_PUBLIC_BASE_URL + "/sharedfile/" + docId;
+            "https://file-sharing-tau.vercel.app/sharedfile/" + docId;
           saveInDB(file, url, {}, shortUrl, docId);
           //how to redirect to download page
           // setDownloadURL(url);
@@ -96,7 +97,7 @@ function UploadPage({
       username: user?.fullName || "Muhammad Zafar",
       userEmail:
         user?.primaryEmailAddress?.emailAddress || "mzafar611@gmail.com",
-      shortUrl: shortUrl,
+      shortUrl: shortUrl, //localhost:3000/sharedfile/3128937192
     };
     try {
       await setDoc(docRef, payload);
